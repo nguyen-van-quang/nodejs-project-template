@@ -1,3 +1,6 @@
 {
-  "*.ts": "eslint --fix"
+  "*.js": ["prettier --write src", "eslint"],
+  "*.ts": ["prettier --write src", "eslint"],
+  "*.md": "prettier --write src",
+  "*.json": "prettier --write src"
 }
